@@ -11,16 +11,16 @@ public class Ex06 {
 		System.out.println("숫자2개를 입력해주세요.");
 		
 		System.out.print("숫자1: ");
-		int no1 = sc.nextInt();
+		int num1 = sc.nextInt();
 		
 		System.out.print("숫자2: ");
-		int no2 = sc.nextInt();
+		int num2 = sc.nextInt();
 		
-		if(no1>no2) {
-			System.out.println("큰수: "+no1+"		작은 수:"+no2+"입니다.");
+		if(num1>num2) {
+			System.out.println("큰수: "+num1+"		작은 수:"+num2+"입니다.");
 		}
 		else {
-			System.out.println("큰수: "+no2+"		작은 수: "+no1+"입니다.");
+			System.out.println("큰수: "+num2+"		작은 수: "+num1+"입니다.");
 		}
 		
 		sc.close();

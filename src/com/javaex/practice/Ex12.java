@@ -11,8 +11,10 @@ public class Ex12 {
 		System.out.println("출력되는 내용을 입력하세요.");
 		System.out.print("기호: ");
 		String sym = sc.next();
+		
 		System.out.print("숫자1: ");
 		double num1 = sc.nextDouble();
+		
 		System.out.print("숫자2: ");
 		double num2 = sc.nextDouble();
 		
